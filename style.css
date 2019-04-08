@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("bg.png");
+
+}
+
+.main {
+    background: #A838FF;
+    width: 350px;
+    margin: 100px auto;
+    height: 150px;
+    position: relative;
+    padding: 30px;
+}
+
+.badge {
+    background: #FFE15E;
+    color: black;
+    padding: 5px 10px;
+    font-family: 'Indie Flower';
+    font-weight: bold;
+    width: 80px;
+    position: absolute;
+    top: -15px;
+    left: 40%;
+}
+
+.clock {
+    background: #0F94FF;
+    text-align: center;
+    font-size: 55px;
+    height: 100%;
+    padding-top: 5px;
+    font-family: Oswald;
+    border-radius: 4px;
+}
+
